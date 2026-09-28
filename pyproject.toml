@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genpark-adsr-envelope-wavetable-synth-skill"
+version = "1.0.0"
+description = "ADSR envelope state machine and band-limited wavetable synthesizer for tone and waveform synthesis."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [
+    {name = "AlphaPark Team", email = "engineering@alphapark.ai"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Multimedia :: Sound/Audio :: Analysis",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+
+[project.urls]
+Homepage = "https://github.com/alphaparkinc/genpark-adsr-envelope-wavetable-synth-skill"
+Repository = "https://github.com/alphaparkinc/genpark-adsr-envelope-wavetable-synth-skill.git"
+Issues = "https://github.com/alphaparkinc/genpark-adsr-envelope-wavetable-synth-skill/issues"
