@@ -1,0 +1,6 @@
+# Smithery configuration for genpark-adsr-envelope-wavetable-synth-skill
+name: genpark-adsr-envelope-wavetable-synth-skill
+version: 1.0.0
+runtime: python
+entrypoint: mcp_server.py
+type: stdio
