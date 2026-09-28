@@ -1,0 +1,9 @@
+{
+  "schema_version": "v1",
+  "name": "genpark-adsr-envelope-wavetable-synth-skill",
+  "version": "1.0.0",
+  "description": "ADSR envelope state machine and band-limited wavetable synthesizer for tone and waveform synthesis.",
+  "entrypoint": "client.py",
+  "mcp_server": "mcp_server.py",
+  "category": "Service"
+}
